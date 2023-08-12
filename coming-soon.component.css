@@ -1,0 +1,56 @@
+
+  .coming_soon {
+    background: url("src/assets/GurukuL/Coming.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .bi-facebook,
+  .bi-twitter,
+  .bi-linkedin,
+  .bi-instagram{
+    font-size: 25px !important;
+  }
+  
+  .bi-facebook {
+    color: #3b5998;
+  }
+  .bi-facebook:hover {
+    transform: scale(1.2);
+  }
+  .bi-twitter {
+    color: #00acee;
+  }
+  .bi-twitter:hover {
+    transform: scale(1.2);
+  }
+  .bi-linkedin {
+    color: #0088cc;
+  }
+  .bi-linkedin:hover {
+    transform: scale(1.2);
+  }
+  .bi-instagram {
+    color: #d6249f;
+    /* background-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+  }
+  .bi-instagram:hover {
+    transform: scale(1.2);
+  }
+  .bi-envelope {
+    font-size: 25px;
+    color: #fff;
+    background: #d44638;
+  }
+  
+  .email {
+    font-size: 18px;
+    display: none;
+  }
+  .bi-envelope:hover .email {
+    display: inline-block;
+  }
+  .big{
+    font-size: 120px;
+  }
